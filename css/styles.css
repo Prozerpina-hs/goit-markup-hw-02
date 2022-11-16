@@ -1,0 +1,53 @@
+/* background-color: #ECECEC */
+/* :root {
+    --
+} */
+
+body {
+    color: #757575;
+    ;
+    background-color: #F5F5F5;
+}
+
+ ul {
+    list-style: none;
+ }
+h1 {
+    color: rgba(255, 255, 255, 1);
+}
+h2,h3 {
+    color: rgba(33, 33, 33, 1);
+}
+
+
+/* Шапка */
+    /* Лого */
+    .logo {
+        color: #000000;
+        font-family: Raleway-700;
+        font-size: 26px;
+    }
+
+    .logo-blue {
+        color: #2196F3;
+    }
+
+    /* Навігація по сайту */
+    .navi a {
+        color: #212121;
+        font-size: 14px;
+    }
+
+    .contacts a {
+        color: #757575;
+        font-size: 14px;
+    }
+
+    .navi-link:focus,
+    .contacts-link:focus,
+    .navi-link:hover,
+    .contacts-link:hover{
+        color: #2196F3;
+    }
+     
+   
