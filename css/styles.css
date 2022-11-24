@@ -1,6 +1,7 @@
 /* background-color: #ECECEC */
 :root {
     --main-white-color: #ffffff;
+    --primary-background-color: #F5F4FA;
     --secondary-background-color: #2F303A;
     --primary-text-color: #212121;
     --secondary-text-color: #757575;
@@ -18,10 +19,6 @@ body {
  ul {
     list-style: none;
  }
-
-h2,h3 {
-    color: var(--primary-text-color);
-}
 
 a {
     text-decoration: none;
@@ -122,6 +119,7 @@ a {
 /* Особливості */
 
  .peculiarities-name {
+    color: var(--primary-text-color);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -130,31 +128,38 @@ a {
 .peculiarities-text {
     font-size: 14px;
     line-height: 1.7;
-    letter-spacing: 0.03em;
 }
 
 
 /* Чим ми займаємось */
-.capabilities,
+
 .team {
+    background-color: var(--primary-background-color);
+}
+
+.capabilities,
+.team-head {
+    color: var(--primary-text-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
-    text-align: center;letter-spacing: 0.03em;
+    text-align: center;
 }
 
  /* Наша команда */
+
+ .team-list {
+    background-color: var(--main-white-color);
+ }
 .team-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
 }
 
 .team-job {
     font-size: 16px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
 }
 
 
@@ -176,30 +181,30 @@ a {
     color: var(--main-white-color);
     font-size: 14px;
     font-style: normal;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
+    line-height: 1.71;
 }
 .foot-add-link {
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
     font-style: normal;
     line-height: 1.7;
-    letter-spacing: 0.03em;
 }
 
-/* Portfolio */
+/* PORTFOLIO */
+
 .filters-button {
-    background-color: #F5F4FA;
+    background-color: var(--primary-background-color);
 
     color: var(--primary-text-color);
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.63;
+    line-height: 1.62;
     letter-spacing: 0.03em;
     
     cursor: pointer;
 }
+
 .foot-add-map:hover,
 .foot-add-map:focus,
 .filters-button:hover,
@@ -212,11 +217,12 @@ a {
     background-color: var(--main-white-color);
 }
 
-.base {
+/* .base {
     background-color: #F5F5F5;
-} 
+}  */
 
 .project-name {
+    color: var(--primary-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -227,5 +233,4 @@ a {
     color: var(--secondary-text-color);
     font-size: 16px;
     line-height: 1.88;
-    letter-spacing: 0.1em;
 }
